@@ -1,0 +1,15 @@
+539203f Merge pull request #1 from sofiadscribner/feature-sofiadscribner
+d1c6cdd added sofies file
+8bf438d merge conflict
+8cf6d33 new features 2 part I
+cc5431e new features part I
+b8a905d merge
+d618c21 part H
+43af6f2 adding to features
+5d24a7b add empty file
+478736c quick edit
+e51cd73 adding commit
+055667b adding the readme
+26ccb9d only file 1
+9164173 only file 2
+ebc0613 create new filed

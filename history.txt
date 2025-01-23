@@ -1,0 +1,177 @@
+  345  python3 -m doctest test_digit_counter.py
+  777  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  778  git --version
+  779  git config --global use.name "MaryEllen Faulconer"
+  780  git config --global user.email "meefaroo@icloud.com"
+  782  $ brew install git
+  783  $ brew install git
+  784  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  785  $ brew install git
+  786  $ brew install git
+  787  git config --global use.name "MaryEllen Faulconer"
+  788  git config --global user.email "mefaroo@icloud.com"
+  789  git config --global core.editor "code --wait"
+  790  git config --global init.defaultBranch main
+  797  git config --list
+  798  git config --global user.name "MaryEllen Faulconer"
+  808  mkdir gitPractice
+  810  cd gitPractics
+  811  cd gitPractice
+  812  git status
+  813  git init
+  814  git status
+  816  rm -rf .git
+  819  git init
+  820  git status
+  822  git add new_file.txt
+  823  git status
+  824  git commit -m 'First Commit'
+  825  git status
+  826  git status
+  827  git add . 
+  828  git status
+  829  git commit -m 'Update new_file with info'
+  830  git status
+  831  git log
+  832  git checkout 3e8312e9c2f2ee
+  833  git log
+  834  git branch
+  835  git switch - 
+  836  git log
+  839  mkdir git-practice-mfaulconer
+  841  cd git-practice-mfaulconer
+  842  git init
+  843  git status
+  847  git status
+  848  git add . 
+  849  git status
+  850  git commit -m 'create new filed'
+  851  git status
+  852  git log
+  853  git status
+  854  git add file_2.txt
+  855  git status
+  856  git commit -m 'only file 2'
+  857  git add file_1.txt
+  858  git status
+  859  git commit -m 'only file 1'
+  860  git status
+  861  git log
+  863  git status
+  864  git add .
+  865  git status
+  866  git commit -m 'adding the readme'
+  867  git log
+  868  api-keys.txt .gitignore
+  869  touch .gitignore
+  870  cd .gitignore
+  873  cd .gitignore
+  874  git add .gitignore
+  875  git status
+  876  git commit -m 'adding commit'
+  877  git status
+  878  git add . 
+  879  git commit -m 'quick edit'
+  880  git log
+  882  git status
+  883  git status
+  884  git branch features
+  885  git switch features
+  886  git log
+  888  git status
+  889  git commit -a -m 'add empty file'
+  890  git log
+  891  git status
+  892  git add .
+  893  git commit -m 'add empty file'
+  894  git branch
+  895  git status
+  896  git add .
+  897  git commit -m 'adding to features'
+  900  git clone git@github.com:esnt/another-stat386-theme.git
+  901  git clone git@github.com:esnt/another-stat386-theme.git
+  902  git remote -v
+  905  git init
+  906  git remote -v
+  907  git remote set-url origin https://github.com/mfaulconer/Stat386-Blog
+  908  git remote -v
+  909  git add .
+  910  git commit -m 'Add theme files to blog'
+  911  git push origin main
+  912  git push origin main
+  913  git push origin main
+  914  git push
+  915  git push
+  919  git add .
+  920  git status
+  921  git commit -m 'Making changed'
+  922  git push
+  925  git status
+  932  git status
+  933  git add .
+  934  git commit -m 'blog post 1'
+  935  git push
+  936  git add . 
+  937  git commit -m 'mistake'
+  938  git push
+  944  git branch
+  948  git-practice-mfaulconer
+  949  cd git-practice-mfaulconer
+  951  git branch
+  953  git status
+  954  git switch main
+  955  git add .
+  956  git commit 'part H'
+  957  git commit -m 'part H'
+  958  git branch
+  959  git merge features
+  960  git commit
+  961  git commit -m
+  962  git commit -m 'merge'
+  963  git log
+  964  git status
+  967  cd git-practice-mfaulconer
+  968  git status
+  969  git branch
+  970  git switch
+  972  git switch features
+  973  git switch main
+  974  git add .
+  975  git commit -m 'new features part I'
+  976  git switch features
+  977  git add . 
+  978  git commit -m 'new features 2 part I'
+  979  git switch main
+  980  git merge features
+  981  git commit 'm 'merge conflict'\n\nfjp\n\ndisfneo\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
+  982  git commit -m 'merge conflict'
+  983  git status
+  984  git add .
+  985  git commit -m 'merge conflict'
+  986  git status
+  987  git switch features
+  988  git branch --delete features
+  989  git switch main
+  990  git branch --delete features
+  991  git remote add origin git@github.com:mfaulconer/git-practice-mfaulconer.git
+  992  git push -u origin main
+  995  git clone git@github.com:mfaulconer/git-practice-sofiadscribner.git
+  996  git branch feature-mfaulconer
+  997  git init
+  998  cd git-practice-sofiadscribner
+  999  git branch feature-mfaulconer
+ 1000  git branch
+ 1003  cd git-practice-sofiascribner
+ 1004  cd git-practice-sofiadscibner
+ 1005  cd git-practice-sofiadscribner
+ 1006  git branch
+ 1007  git switch feature-mfaulconer
+ 1009  git add .
+ 1010  git status
+ 1011  git commit -m 'MaryEllen's changes'\n'
+ 1012  git commit -m 'MaryEllen changes'
+ 1013  git push origin feature-mfaulconer
+ 1014  git pull
+ 1017  cd Documents/Stat386/git-practice-mfaulconer
+ 1018  git pull
+ 1019  git log --oneline > gitlog.txt
